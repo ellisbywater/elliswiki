@@ -4,14 +4,14 @@ export default function ProjectSection() {
   return (
     <>
       <div
-        className="py-20 2xl:px-0 lg:px-12 px-4 2xl:mx-auto 2xl:container bg-gray-50"
-        style={{ height: 1000 }}>
-        <div className="md:flex items-center justify-between w-full bg-gray-50">
+        className="py-6 2xl:px-2 lg:px-12 px-4 2xl:mx-auto 2xl:container border-t-2 border-black"
+        style={{ height: 900 }}>
+        <div className="md:flex items-center justify-between w-full">
           <div className="xl:w-1/3 md:w-1/2 w-full">
             <h1
               role="heading"
-              className="focus:outline-none md:w-60 font-bold md:text-6xl text-4xl leading-tight text-gray-800">
-              Think<span className="font-normal italic"> out loud </span>
+              className="focus:outline-none md:w-60 font-bold md:text-6xl text-4xl leading-tight text-black">
+              Altso's Kitchen
             </h1>
             <p
               role="contentinfo"
@@ -21,7 +21,7 @@ export default function ProjectSection() {
               cumin can make a meal more savor.
             </p>
             <div className="mt-10">
-              <button className="flex items-center md:p-3 p-1 focus:outline-none text-xl font-medium leading-5 text-gray-800 focus:ring-2 focus:ring-offset-2 focus:ring-gray-700">
+              <button className="flex items-center md:p-3 p-1 focus:outline-none text-xl font-medium leading-5 text-black focus:ring-2 focus:ring-offset-2 focus:ring-gray-700">
                 Discover more
                 <svg
                   className="ml-8"
@@ -69,9 +69,9 @@ export default function ProjectSection() {
               <img
                 src="https://i.ibb.co/wMd2Q4B/new.png"
                 alt="Purple flowers on a book"
-                className="md:w-full sm:w-1/2 w-full"
+                className="md:w-full sm:w-1/2 w-full shadow-lg rounded"
               />
-              <div className="flex items-center mt-8">
+              <div className="flex items-center mt-6">
                 <p
                   role="contentinfo"
                   className="text-xl focus:outline-none font-semibold leading-5 text-gray-700">

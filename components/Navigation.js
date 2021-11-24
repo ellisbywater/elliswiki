@@ -42,19 +42,24 @@ export default function Navbar() {
                 className="lg:inline-flex lg:w-auto w-full px-3 py-2 h-full w-full cursor-pointer"
               />
             </Link>
-            <Link href="/">
+            <Link href="/blog">
               <div className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black text-lg  font-bold items-center justify-center hover:bg-black hover:text-white cursor-pointer mx-2">
                 Blog
               </div>
             </Link>
-            <Link href="/">
+            <Link href="/projects">
               <div className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black text-lg font-bold items-center justify-center hover:bg-black hover:text-white cursor-pointer mx-2">
                 Projects
               </div>
             </Link>
-            <Link href="/">
+            <Link href="/contact">
               <div className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black text-lg font-bold items-center justify-center hover:bg-black hover:text-white cursor-pointer mx-2">
                 Hire Me
+              </div>
+            </Link>
+            <Link href="/about">
+              <div className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black text-lg font-bold items-center justify-center hover:bg-black hover:text-white cursor-pointer mx-2">
+                About Me
               </div>
             </Link>
           </div>

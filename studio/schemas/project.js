@@ -38,5 +38,21 @@ export default {
         },
       ],
     },
+    {
+      name: "stack",
+      title: "Technology Stack",
+      type: "array",
+      of: [{ type: "string" }],
+    },
+    {
+      name: "link",
+      title: "Link",
+      type: "url",
+    },
+    {
+      name: "github",
+      title: "Github",
+      type: "url",
+    },
   ],
 };
