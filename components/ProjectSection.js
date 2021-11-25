@@ -4,9 +4,9 @@ export default function ProjectSection() {
   return (
     <>
       <div
-        className="py-6 2xl:px-2 lg:px-12 px-4 2xl:mx-auto 2xl:container border-t-2 border-black"
+        className="py-8 2xl:px-2 lg:px-12 px-4 2xl:mx-auto 2xl:container border-t-4 border-black"
         style={{ height: 900 }}>
-        <div className="md:flex items-center justify-between w-full">
+        <div className="md:flex justify-between w-full">
           <div className="xl:w-1/3 md:w-1/2 w-full">
             <h1
               role="heading"

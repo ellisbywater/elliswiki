@@ -43,6 +43,14 @@ export default {
       type: "datetime",
     },
     {
+      name: "summary",
+      title: "Summary",
+      type: "text",
+      options: {
+        maxLength: 240,
+      },
+    },
+    {
       name: "body",
       title: "Body",
       type: "blockContent",

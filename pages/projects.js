@@ -1,6 +1,9 @@
 import ProjectSection from "@/components/ProjectSection";
+import { sanityClient } from "@/lib/sanity";
 
-export default function Projects() {
+const projectQuery = `*[_type == "project"]{_id, title, slug, image, description, stack, link, github}`;
+
+export default function Projects({ projects }) {
   return (
     <div className="p-6">
       <div className="text-center p-6 mb-20 mt-10">
@@ -13,4 +16,13 @@ export default function Projects() {
       </div>
     </div>
   );
+}
+
+export async function getStaticProps() {
+  const projects = await sanityClient.fetch(projectQuery);
+  return {
+    props: {
+      projects: projects,
+    },
+  };
 }

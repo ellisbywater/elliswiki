@@ -36,12 +36,6 @@ export default function Navbar() {
             active ? "" : "hidden"
           }   w-full lg:inline-flex lg:flex-grow lg:w-auto justify-center`}>
           <div className="lg:inline-flex lg:flex-row lg:w-auto w-full lg:items-center flex flex-col lg:h-auto lg:mr-5 cursor-pointer">
-            <Link href="/">
-              <Image
-                src={logo}
-                className="lg:inline-flex lg:w-auto w-full px-3 py-2 h-full w-full cursor-pointer"
-              />
-            </Link>
             <Link href="/blog">
               <div className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black text-lg  font-bold items-center justify-center hover:bg-black hover:text-white cursor-pointer mx-2">
                 Blog
@@ -51,6 +45,14 @@ export default function Navbar() {
               <div className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black text-lg font-bold items-center justify-center hover:bg-black hover:text-white cursor-pointer mx-2">
                 Projects
               </div>
+            </Link>
+            <Link href="/">
+              <Image
+                src={logo}
+                className={`${
+                  active ? "" : "hidden"
+                } lg:inline-flex lg:w-auto w-full px-3 py-2 h-full w-full cursor-pointer`}
+              />
             </Link>
             <Link href="/contact">
               <div className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black text-lg font-bold items-center justify-center hover:bg-black hover:text-white cursor-pointer mx-2">
