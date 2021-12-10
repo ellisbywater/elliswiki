@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Ellis | Web3 & Blockchain Developer</title>
+        <title>Ellis | Web3 & Fullstack Developer</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="flex flex-col items-center justify-center min-h-screen pb-2">

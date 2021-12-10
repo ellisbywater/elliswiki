@@ -4,10 +4,10 @@ import Link from "next/link";
 export default function Hero() {
   return (
     <>
-      <div className="p-32 pt-6 container mx-auto text-center">
+      <div className="p-12 cle lg:p-32 pt-6 container mx-auto text-center">
         <h1 className="text-4xl font-bold p-20 bg-black text-white shadow-xl rounded">
           <span className="text-blue-200">Web3</span> -&-{" "}
-          <span className="text-green-200">Blockchain</span> Developer
+          <span className="text-green-200">Fullstack</span> Developer
         </h1>
       </div>
       <div className="p-32 container mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 pt-6 gap-8">

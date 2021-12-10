@@ -12,7 +12,7 @@ export default function Projects({ projects }) {
         </h1>
       </div>
       <div className="flex flex-wrap">
-        <ProjectSection />
+        <ProjectSection projects={projects} />
       </div>
     </div>
   );
