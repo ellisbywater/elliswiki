@@ -7,6 +7,7 @@
   },
   "dependencies": {
     "@hookform/resolvers": "^2.8.4",
+    "@sanity/uuid": "^3.0.1",
     "groq": "^2.15.0",
     "next": "latest",
     "next-sanity": "^0.4.0",
