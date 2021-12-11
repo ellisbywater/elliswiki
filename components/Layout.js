@@ -1,4 +1,4 @@
-import Navbar from "./navigation";
+import Navbar from "./Navigation";
 import SEO from "./SEO";
 
 export default function Layout({ settings, children }) {

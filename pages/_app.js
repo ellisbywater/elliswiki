@@ -11,7 +11,7 @@ function MyApp({ Component, pageProps, settings }) {
 }
 
 MyApp.getInitialProps = async (appContext) => {
-  const seoQuery = `*[_type == "siteSettings"][1]{
+  const seoQuery = `*[_type == "siteSettings"][0]{
     title,
     description,
     url,
