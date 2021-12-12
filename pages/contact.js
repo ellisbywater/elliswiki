@@ -60,7 +60,7 @@ export default function Contact({ contactData }) {
     <>
       <div className="py-4 lg:py-8  relative">
         <img
-          src={imageUrl(contactData.mainImage).url()}
+          src={imageUrl(contactData?.mainImage).url()}
           className=" lg:h-full w-full lg:w-1/2 absolute  inset-0 object-cover object-center xl:block hidden"
           alt="map"
         />
@@ -68,7 +68,7 @@ export default function Contact({ contactData }) {
           <div className="flex flex-wrap xl:mx-auto xl:container">
             <div className="w-full relative lg:w-1/2 xl:mt-10 mb-10 2xl:pr-24 2xl:pl-0 xl:pl-12 pl-0 ">
               <img
-                src={imageUrl(contactData.mainImage).url()}
+                src={imageUrl(contactData?.mainImage).url()}
                 className="h-full w-full xl:w-1/2 absolute inset-0  bg-cover bg-center xl:hidden"
                 alt="map"
               />
