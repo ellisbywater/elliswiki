@@ -10,7 +10,7 @@ export default function ProjectSection({ projects }) {
         className="py-8 lg:px-12 px-4 2xl:mx-auto 2xl:container border-t-4 border-black"
         style={{ height: 900 }}>
         {projects.map((project) => (
-          <div className="md:flex justify-between w-full">
+          <div className="mt-6 md:flex justify-between w-full">
             <div className="xl:w-4/6 md:w-1/2 w-full">
               <h1
                 role="heading"
@@ -50,8 +50,8 @@ export default function ProjectSection({ projects }) {
               <div className="w-full">
                 <img
                   src={imageUrl(project.image).url()}
-                  alt="Purple flowers on a book"
-                  className="md:w-full sm:w-1/2 w-full"
+                  alt={project.title}
+                  className="md:w-full sm:w-1/2 w-full rounded shadow-lg"
                 />
               </div>
             </div>
