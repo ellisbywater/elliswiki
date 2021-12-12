@@ -87,14 +87,14 @@ export default function Contact({ contactData }) {
                       </p>
                     </div>
                     <div className="flex justify-center">
-                      {contactData.linkedIn && (
+                      {contactData?.linkedIn && (
                         <div className="text-2xl text-white m-2">
                           <Link href={contactData.linkedIn}>
                             <FiLinkedin />
                           </Link>
                         </div>
                       )}
-                      {contactData.github && (
+                      {contactData?.github && (
                         <div className="text-2xl text-white m-2">
                           <Link href={contactData.github}>
                             <FiGithub />
@@ -103,7 +103,7 @@ export default function Contact({ contactData }) {
                       )}
                     </div>
 
-                    {contactData.phone && (
+                    {contactData?.phone && (
                       <div className="mt-4 md:mt-8">
                         <h2 className="text-sm md:text-base text-green-700 font-semibold">
                           Contact
