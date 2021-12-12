@@ -75,15 +75,15 @@ export default function Contact({ contactData }) {
               <div className="w-full flex flex-col items-start  xl:justify-start  relative z-20 xl:px-0 px-4 xl:py-0 py-4 backdrop-opacity-10">
                 <div className="w-full 2xl:pl-48 xl:pt-1">
                   <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold tracking-wider text-white">
-                    {contactData.heading}
+                    {contactData?.heading}
                   </h1>
                   <div className="w-full md:w-10/12 mt-3 ">
                     <h2 className="text-white text-base md:text-lg leading-8 tracking-wider">
-                      {contactData.subHeading}
+                      {contactData?.subHeading}
                     </h2>
                     <div className="my-4 bg-black">
                       <p className="text-white text-base md:text-lg leading-8 tracking-wider">
-                        {contactData.summary}
+                        {contactData?.summary}
                       </p>
                     </div>
                     <div className="flex justify-center">
