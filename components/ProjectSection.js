@@ -10,7 +10,7 @@ export default function ProjectSection({ projects }) {
         className="py-8 lg:px-12 px-4 2xl:mx-auto 2xl:container border-t-4 border-black"
         style={{ height: 900 }}>
         {projects.map((project) => (
-          <div className="mt-6 md:flex justify-between w-full">
+          <div className="mt-12 md:flex justify-between w-full border-b-2 border-black py-20 mb-4">
             <div className="xl:w-4/6 md:w-1/2 w-full">
               <h1
                 role="heading"
