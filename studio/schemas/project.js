@@ -45,5 +45,11 @@ export default {
       title: "Github",
       type: "url",
     },
+    {
+      name: "order",
+      title: "Order",
+      type: "number",
+      hidden: true,
+    },
   ],
 };

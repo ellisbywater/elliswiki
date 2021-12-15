@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Link from "next/link";
+import axios from "axios";
 import { imageUrl, sanityClient } from "@/lib/sanity";
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup/dist/yup";

@@ -5,6 +5,7 @@ import {
   previewSubscription,
   PortableText,
 } from "lib/sanity";
+import BlogRender from "@/components/BlogRender";
 
 const postQuery = `*[_type == "post" && slug.current == $slug][0]{
     _id,
@@ -27,7 +28,7 @@ export default function BlogPost({ data, preview }) {
   return (
     <div className="p-10 md:p-20 w-full">
       <div className="text-center p-6">
-        <h1 className="text-6xl font-bold">{post.title}</h1>
+        <h1 className="text-6xl font-bold">{post.title || "POST UNKNOWN"}</h1>
         <h3
           className="bg-black text-white p-2 mx-auto mt-5 rounded shadow"
           style={{ width: "300px" }}>
