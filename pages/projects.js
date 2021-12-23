@@ -1,7 +1,7 @@
 import ProjectSection from "@/components/ProjectSection";
 import { sanityClient } from "@/lib/sanity";
 
-const projectQuery = `*[_type == "project"]{_id, title, slug, image, description, stack, link, github}`;
+const projectQuery = `*[_type == "project"]{_id, title, slug, image, description, stack, link, github, order} | order(order)`;
 
 export default function Projects({ projects }) {
   return (

@@ -39,7 +39,7 @@ export default function About({ author }) {
                 </div>
               )}
             </div>
-            <p className="text-lg">
+            <p className="text-lg px-16 lg:w-3/4">
               <PortableText blocks={author.bio} />
             </p>
           </div>
